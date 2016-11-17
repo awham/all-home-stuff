@@ -1,0 +1,116 @@
+h2.resource__title {
+      font-size: 3.6rem;
+}
+
+p.resource__description {
+      font-size: 1.6rem;
+}
+
+span.heading__link.active {
+      display: none;
+}
+
+.home .tile img {
+      -moz-transition: all 1s;
+      -webkit-transition: all 1s;
+      transition: all 1s;
+}
+
+.home .tile:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+}
+/* 
+Enter the URL to your image within the ""
+For the first collection, use nth-of-type(1), second nth-of-type(2) etc...
+I recommend that you create ALL your collections before doing this!
+*/
+
+.home .tile:nth-of-type(1) img {
+      content:url("");
+}
+
+.home .tile:nth-of-type(2) img {
+      content:url("");
+}
+
+.home .tile:nth-of-type(3) img {
+      content:url("");
+}
+
+
+[data-tabs] .heading {
+      display: none;
+}
+
+.page-head {
+      border-bottom: 0px;
+}
+
+.home .section.section_theme-gray:first-of-type {
+      padding-top:150px;
+      padding-bottom: 150px;
+}
+
+.home .section:first-of-type {
+      background: url("https://static.pexels.com/photos/27665/pexels-photo-27665.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      text-align: center;
+}
+
+[data-tabs] .tile_card {
+    display: none;
+}
+
+[data-tabs]::before {
+      content: "Your headline goes here!";
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      background-color: rgba(255,255,255,1);
+      padding: 80px 60px;
+      color: #333;
+      font-size: 2.2rem;
+      font-weight: 500;
+      line-height: 1.6;
+      letter-spacing: .075em;
+      text-transform: uppercase;
+      border: 8px solid #333333;
+}
+
+.page-head__logo {
+      font-weight: 400;
+      font-size: 25px;
+      color: #333333;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+}
+
+footer.page-foot.section.section_compact {
+      background: #e6e6e6;
+      border-bottom: none;
+}
+
+@media only screen and (max-width: 980px) {
+      [data-tabs]::before {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+      h1.page-head__logo {
+      font-size: 1.6rem;
+      }
+   
+      button.page-head__trigger.button.button_secondary.hidden-lg {
+      width: 60px;
+      font-size: 1rem;
+      padding: 10px 0px;
+      }
+}
