@@ -1,0 +1,195 @@
+h2.resource__title {
+      font-size: 3.6rem;
+}
+
+p.resource__description {
+      font-size: 1.6rem;
+}
+
+span.heading__link.active {
+      display: none;
+}
+
+.home .tile img {
+      -moz-transition: all 1s;
+      -webkit-transition: all 1s;
+      transition: all 1s;
+}
+
+.home .tile:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+}
+
+.home .tile:nth-of-type(1) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-101515-1-300x210.jpg");
+}
+
+.home .tile:nth-of-type(2) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/mas_0-300x210.jpg");
+}
+
+.home .tile:nth-of-type(3) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/startup-photos-300x210.jpg");
+}
+
+.home .tile:nth-of-type(4) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/architecture_thumbnail-300x210.jpeg");
+}
+
+.home .tile:nth-of-type(5) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/person-woman-art-creative-300x210.jpg");
+}
+
+.home .tile:nth-of-type(6) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-68761-300x210.jpg");
+}
+
+.home .tile:nth-of-type(7) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/1024px-Public_Housing_Under_Construction_Redhill_Singapore_3281435634-300x210.jpg");
+}
+
+.home .tile:nth-of-type(8) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/interlace-300x210.jpg");
+}
+
+.home .tile:nth-of-type(9) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/49107164-300x210.jpg");
+}
+
+.home .tile:nth-of-type(10) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-2-300x210.jpg");
+}
+
+.home .tile:nth-of-type(11) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-92904-300x210.jpg");
+}
+
+.home .tile:nth-of-type(12) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/Lavender_district_HDB_flats_in_Singapore-300x210.jpg");
+}
+
+.home .tile:nth-of-type(13) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-104996-300x210.jpg");
+}
+
+.home .tile:nth-of-type(14) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/space-desk-workspace-coworking-1-2-300x210.jpg");
+}
+
+.home .tile:nth-of-type(15) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/stairs-home-loft-lifestyle-300x210.jpg");
+}
+
+.home .tile:nth-of-type(16) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-210990-300x210.jpg");
+}
+
+.home .tile:nth-of-type(17) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-175045-300x210.jpg");
+}
+
+.home .tile:nth-of-type(18) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-91987-300x210.jpg");
+}
+
+.home .tile:nth-of-type(19) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/17233058042_b2a96148e4_b-300x210.jpg");
+}
+
+.home .tile:nth-of-type(20) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/man-hands-reading-boy-300x210.jpg");
+}
+
+.home .tile:nth-of-type(21) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-101808-300x210.jpg");
+}
+
+.home .tile:nth-of-type(22) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/control-work-official-form-39519-300x210.png");
+}
+
+.home .tile:nth-of-type(23) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/painting-black-paint-roller-300x210.jpg");
+}
+
+.home .tile:nth-of-type(24) img {
+      content:url("http://allhomestuff.sg/wp-content/uploads/2016/11/pexels-photo-3-300x210.jpg");
+}
+
+
+[data-tabs] .heading {
+      display: none;
+}
+
+.page-head {
+      border-bottom: 0px;
+}
+
+.home .section.section_theme-gray:first-of-type {
+      padding-top:150px;
+      padding-bottom: 150px;
+}
+
+.home .section:first-of-type {
+      background: url("http://allhomestuff.sg/landingdirectory.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      text-align: center;
+}
+
+[data-tabs] .tile_card {
+    display: none;
+}
+
+[data-tabs]::before {
+      content: "all the essential websites any kiasu Singapore homeowner needs to know";
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      background-color: rgba(255,255,255,1);
+      padding: 80px 60px;
+      color: #333;
+      font-size: 2.2rem;
+      font-weight: 500;
+      line-height: 1.6;
+      letter-spacing: .075em;
+      text-transform: uppercase;
+      border: 8px solid #333333;
+}
+
+.page-head__logo {
+      font-weight: 400;
+      font-size: 25px;
+      color: #333333;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+}
+
+footer.page-foot.section.section_compact {
+      background: #e6e6e6;
+      border-bottom: none;
+}
+
+@media only screen and (max-width: 980px) {
+      [data-tabs]::before {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+      h1.page-head__logo {
+      font-size: 1.6rem;
+      }
+   
+      button.page-head__trigger.button.button_secondary.hidden-lg {
+      width: 60px;
+      font-size: 1rem;
+      padding: 10px 0px;
+      }
+}
